@@ -1,0 +1,61 @@
+body {
+    /*background-color: darkgray;*/
+    height: 100%;
+    width: 100%;
+    padding-bottom: 15%;
+    background-size: contain;
+    background: dimgrey; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, black, dimgrey); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, black, dimgrey); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, black, dimgrey); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, black, dimgrey); /* Standard syntax (must be last) */
+}
+
+.panel-transparent {
+    background: none;
+}
+
+.panel-transparent .panel-heading{
+    background: rgba(122, 130, 136, 0.5)!important;
+}
+
+.panel-transparent .panel-body{
+    background: rgba(46, 51, 56, 0.5)!important;
+}
+
+label {
+    color: white;
+}
+
+th {
+    color: white;
+}
+
+td {
+    color: deepskyblue;
+}
+
+input {
+    background: rgba(122, 130, 136, 0.2)!important;
+    color: deepskyblue!important;
+}
+
+textarea:focus, input:focus {
+    color: deepskyblue;
+}
+
+button {
+    color: deepskyblue;
+}
+
+div.jumbotron {
+    background: transparent;
+}
+
+#header {
+    color: deepskyblue;
+}
+
+h3 {
+    color: white;
+}
